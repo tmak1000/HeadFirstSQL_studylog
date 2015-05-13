@@ -40,31 +40,19 @@ CREATE TABLE my_contacts
 ```
  
 |烈名|説明|例|最適なデータ型の選択|
-|---|---|---|---|
 |zip_code|バイナリデータ|dljdlkjljfd|BLOB|
-|---|---|---|---|
 |atomic_weight||0.0000001|FLOAT|
-|---|---|---|---|
 |comments|||BLOB|
-|---|---|---|---|
 |quantity||整数|INTEGER|
-|---|---|---|---|
 |tax_rate|税率||DEC|
-|---|---|---|---|
 |book_title|本のタイトル||VARCHAR|
-|---|---|---|---|
 |gender||M||
-|---|---|---|---|
 |phone_number|||INTEGER(10)|
-|---|---|---|---|
 |state|||CHAR(2)|
-|---|---|---|---|
 |anniversary|DATE|||
-|---|---|---|---|
 |games_won|ゲーム勝利数|3||
-|---|---|---|---|
 |meeting_time|ミーティングの時間と日付||DATE & TIME|
-|---|---|---|---|
+
 
 
 
