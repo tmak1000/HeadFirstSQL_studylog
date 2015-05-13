@@ -1,2 +1,4 @@
 # HeadFirstSQL_studylog
-HeadFirstSQLの学習記録メモ
+*HeadFirstSQLの学習記録メモ
+brew にてmysqlをインストール
+
