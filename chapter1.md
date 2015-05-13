@@ -40,6 +40,7 @@ CREATE TABLE my_contacts
 ```
 ```
 |烈名|説明|例|最適なデータ型の選択|
+|---|---|---|---|
 |zip_code|バイナリデータ|dljdlkjljfd|BLOB|
 |---|---|---|---|
 |atomic_weight||0.0000001|FLOAT|
@@ -63,7 +64,7 @@ CREATE TABLE my_contacts
 |games_won|ゲーム勝利数|3||
 |---|---|---|---|
 |meeting_time|ミーティングの時間と日付||DATE & TIME|
-```
+
 
 
 
