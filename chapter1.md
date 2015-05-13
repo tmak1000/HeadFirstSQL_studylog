@@ -23,4 +23,48 @@ name|
 	doughnut_tyep VARCHAR(6)
 );
 ```
+
+```
+CREATE TABLE my_contacts
+(
+	last_name VARCHAR(30),
+	first_name VARCHAR(20),
+	email VARCHAR(50),
+	birthday DATE,
+	profession VARCHAR(50),
+	location VARCHAR(50),
+	status VARCHAR(20),
+	interests VARCHAR(100),
+	seeking VARCHAR(100)
+);
+```
  
+|烈名|説明|例|最適なデータ型の選択|
+|---|---|---|---|
+|zip_code|バイナリデータ|dljdlkjljfd|BLOB|
+|---|---|---|---|
+|atomic_weight||0.0000001|FLOAT|
+|---|---|---|---|
+|comments|||BLOB|
+|---|---|---|---|
+|quantity||整数|INTEGER|
+|---|---|---|---|
+|tax_rate|税率||DEC|
+|---|---|---|---|
+|book_title|本のタイトル||VARCHAR|
+|---|---|---|---|
+|gender||M||
+|---|---|---|---|
+|phone_number|||INTEGER(10)|
+|---|---|---|---|
+|state|||CHAR(2)|
+|---|---|---|---|
+|anniversary|DATE|||
+|---|---|---|---|
+|games_won|ゲーム勝利数|3||
+|---|---|---|---|
+|meeting_time|ミーティングの時間と日付||DATE & TIME|
+|---|---|---|---|
+
+
+
