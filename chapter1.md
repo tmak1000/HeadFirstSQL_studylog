@@ -38,6 +38,7 @@ CREATE TABLE my_contacts
 	seeking VARCHAR(100)
 );
 ```
+```
 |烈名|説明|例|最適なデータ型の選択|
 |zip_code|バイナリデータ|dljdlkjljfd|BLOB|
 |---|---|---|---|
