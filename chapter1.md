@@ -38,7 +38,6 @@ CREATE TABLE my_contacts
 	seeking VARCHAR(100)
 );
 ```
- 
 |烈名|説明|例|最適なデータ型の選択|
 |zip_code|バイナリデータ|dljdlkjljfd|BLOB|
 |---|---|---|---|
@@ -63,7 +62,7 @@ CREATE TABLE my_contacts
 |games_won|ゲーム勝利数|3||
 |---|---|---|---|
 |meeting_time|ミーティングの時間と日付||DATE & TIME|
-
+```
 
 
 
