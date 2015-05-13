@@ -15,10 +15,10 @@ name|
 * create database gregs_list; 
   use gregs_list;
   * コマンドは大文字、データベース名は小文字
-* ``` CREATE TABLE doughnut_list
+``` CREATE TABLE doughnut_list
 (
 	doughnut_name VARCHAR(10),
 	doughnut_tyep VARCHAR(6)
 );
 ```
-* 
+ 
