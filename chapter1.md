@@ -82,7 +82,81 @@ CREATE TABLE my_contacts
 |games_won|ゲーム勝利数|3|INT|
 |meeting_time|ミーティングの時間と日付||DATETIME|
 
+```
+CREATE TABLE my_contacts
+(
+        last_name VARCHAR(30),
+        first_name VARCHAR(20),
+        email VARCHAR(50),
+        birthday DATE,
+        profession VARCHAR(50),
+        location VARCHAR(50),
+        status VARCHAR(20),
+        interests VARCHAR(100),
+        seeking VARCHAR(100)
+	gender CHAR(1)
+);
+=>
+CREATE DATABASE gregs_list;
+USE gregs_list;
+CREATE TABLE my_contacts
+(
+        last_name VARCHAR(30),
+        first_name VARCHAR(20),
+        email VARCHAR(50),
+        birthday DATE,
+        profession VARCHAR(50),
+        location VARCHAR(50),
+        status VARCHAR(20),
+        interests VARCHAR(100),
+        seeking VARCHAR(100),
+        gender CHAR(1)
+);
+
+DROP TABLE my_contacts;
 
 
+excercise
+
+1.DATE,DATETIME,DEC,INT
+2.DROP TABLE
+3.CHAR
+4.DATE
+5.USE DATABASE
+6.INT
+7.BLOB
+8.CREATE DATABASE
+9.CREATE TABLE
+10.DATETIME
+11.DEC
+12.DESC 
+13.CREATE TABLE
+
+INSERT INTO my_contacts
+(last_name,first_name,email,gender,birthday,
+profession,location,status,interests,seeking)
+VALUES('アンダーソン','ジリアン','jill_anderson@brakneckpizza.com',
+'F','1980-09-05',
+'テクニカルライター','カリフォルニア州パロアルト','独身','カヤック乗り、爬虫類','恋人、友達')	
+;
+
+INSERT INTO my_contacts
+(first_name,email,
+profession,location)
+VALUES('パット','patpost@brakneckpizza.com',
+'郵便局員','ニュージャージ州プリンストン')
+;
+
+SELECT * FROM my_contacts;
+
+CREATE TABLE my_contacts
+(
+	last_name VARCHAR(30) NOT NULL,
+	first_name VARCHAR(20) NOT NULL
+)
+;
+
+
+```
 
 
