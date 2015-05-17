@@ -186,6 +186,57 @@ p133
 
 p136
 
+DELETE FROM drink_info WHERE drink_name = 'キスオンザリップス';
+INSERT INTO drink_info VALUES('キスオンザリップス',5.5,42.5,'紫','Y',170); 
+
+DELETE FROM drink_info WHERE color = '黄';
+INSERT ...
+
+!DELETE を使用する際には、その前にSELECT文で確認してから行えば安全。
+
+ex
+SELECT * FROM clown_info
+WHERE
+activities = 'dance';
+
+INSERT INTO clown_info
+VALUES
+('zippo','milstonemole','Female,suits in orage,buggy pants',dance,sing);
+
+DELETE FROM clown_info
+WHERE 
+activities = 'dance';
+
+UPDATE doughnut_rating
+SET 
+type = 'グレーズド'
+WHERE type = 'プレーングレーズド';
+
+UPDATE clown_info 
+SET = 'buggy pants'
+WHERE name = 'snaggles';
+
+UPDATE clown_info 
+SET last_seen = 'bawlmart'
+WHERE name = 'Bonzo';
+
+UPDATE clown_info 
+SET activities = 'ride small car'
+WHERE name = 'sniffles';
+
+UPDATE clown_info 
+SET last_seen = 'dickson park'
+WHERE name = 'Mr.Hobo';
+
+UPDATE drink_info
+SET cost = cost + 1
+WHERE 
+drink_name = 'blue moon'
+OR 
+drink_name = 'Ohmygosh'
+OR
+drink_name = 'limefiz';
+
 
 
 ```
