@@ -81,6 +81,15 @@ MODIFY COLUMN color AFTER model,
 MODIFY COLUMN year AFTER color,
 CHANGE COLUMN howmuch price DECIMAL(7,2);
 
+ALTER TALBLE contact_id
+ADD COLUMN state VARCHAR(20),
+ADD COLUMNT city VARCHAR(50);
+
+SELECT CONCAT(SUBSTRING_INDEX(location,'州',1),'州') FROM my_contacts;
+
+SELECT SUBSTRING_INDEX(location,'州',-1) FROM my_contacts;
+
+SELECT RIGHT(location,2) FROM my_contacts;
 
 
 ```
