@@ -50,3 +50,22 @@ CREATE TABLE person(
 
 INSERT INTO person VALUES(1,'jan','blady');
 
+ALTER TABLE my_contacts
+ADD COLUMN contact_id INT NOT NULL AUTO_INCREMENT FIRST,
+ADD PRIMARY KEY (contact_id);
+
+CREATE TABLE clown_info(
+       id INT NOT NULL AUTOINCREMENT,
+       name VARCHAR(20) ,
+       last_seen_ken VARCHAR(20),
+       last_seen_si VARCHAR(20),
+       last_seen_ku VARCHAR(20),
+       last_seen_ban VARCHAR(20),
+       hair VARCHAR(20),
+       gender VARCHAR(20),
+       suits VARCHAR(20),
+       futt VARCHAR(20),
+       act_move VARCHAR(20),
+       act_with VARCHAR(20)
+       PRIMARY KEY(id)
+);
