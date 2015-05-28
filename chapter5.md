@@ -91,6 +91,30 @@ SELECT SUBSTRING_INDEX(location,'州',-1) FROM my_contacts;
 
 SELECT RIGHT(location,2) FROM my_contacts;
 
+SELECT SUBSTRING('テキサス州サンアントニオ',6,3);
+
+SELECT UPPER('uSa');
+
+SELECT LOWER('spaGHEtti');
+
+SELECT LTRIM(' dogfood ');
+
+SELECT RTRIM(' catfood ');
+
+SELECT LENGTH('テキサス州サンアントニオ');
+
+1->SELECT
+
+2->ADD COLUMN
+
+3->RIGHT(),LEFT()
+
+4->INSERT
+
+SUBSTRING_INDEX() -> 
+
+UPDATE my_contacts SET state = CONCAT(SUBSTRING_INDEX(location,'州',1),'州');
+
 
 ```
 
